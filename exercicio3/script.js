@@ -4,6 +4,8 @@ const frase = `Jorge tem uma casa verde e com portão azul, com os dizeres: "BOA
 const substituirVerde = frase.replace("verde", "rosa")
 const substituirAzul = substituirVerde.replace("azul", "laranja")
 
+console.log(substituirAzul.includes("verde"))
+console.log(substituirAzul.includes("laranja"))
 
 console.log(substituirAzul)
 
