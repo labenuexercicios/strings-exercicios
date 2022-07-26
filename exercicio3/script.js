@@ -6,12 +6,11 @@ const fraseRepOne = frase.replace("verde", "rosa").replace("azul", "laranja")
 const temVerde = fraseRepOne.includes("verde")
 const temLaranja = fraseRepOne.includes("laranja")
 
-
-
-
 console.log(`
 ${frase}
 ${fraseRepOne}
 ${temLaranja}
 ${temVerde}
+EXTRA
+${frase.replace("BOAS VINDAS, mas não deixe o gato sair", "BOAS VINDAS, MAS NÃO DEIXE O GATO SAIR")}
 `)
