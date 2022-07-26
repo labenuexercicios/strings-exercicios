@@ -1,1 +1,3 @@
-const minhaString = "Eu não sou supersticioso, mas sou um pouco ________.      ";
+const minhaString = "Eu não sou supersticioso \nMas sou um pouco doido.      "
+
+console.log(minhaString)
