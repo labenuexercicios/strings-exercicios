@@ -1,10 +1,12 @@
 //Crie a const para a frase aqui
-//a) Crie uma `const` no seu código para guardar a frase (com aspas e tudo);
-const frase = 'Jorge tem uma casa verde e com portão azul, com os dizeres: "BOAS VINDAS, mas não deixe o gato sair"'
-//b) Crie uma nova string a partir da primeira, trocando **verde** por **rosa**, e **azul** por **laranja**;
-const frase1 = frase.replace
+const nova = 'Jorge tem uma casa verde e com portão azul, com os dizeres: "BOAS VINDAS, mas não deixe o gato sair'
+console.log(nova)
 
+const novaString = (nova.replace("verde","rosa"))
+console.log(novaString)
 
-//c) Verifique se a nova string inclui **verde**, e se inclui **laranja**.
+const novaString1 = (novaString.replace("azul","laranja"))
+console.log(novaString1)
 
-//**EXTRA:** tente fazer o “mas não deixe o gato sair” ficar em maiúsculo, assim como o “BOAS VINDAS”
+const novaString2 = nova.replace("mas nao deixe o gato sair", "MAS NAO DEIXE O GATO SAIR")
+console.log(novaString2)
