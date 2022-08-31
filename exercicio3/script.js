@@ -3,9 +3,6 @@ const fraserosa= frase.replace("verde", "rosa")
 const fraselaranja= fraserosa.replace("azul", "laranja")
 const frasefinal= fraselaranja.toLowerCase()
 
-
-
-
 console.log(frasefinal)
 
 
