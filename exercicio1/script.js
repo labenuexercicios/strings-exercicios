@@ -1,0 +1,5 @@
+const nome = prompt("Qual o seu nome?")
+const comidasFav01 = prompt("Escreva sua comida favorita top 01?")
+const comidasFav02 = prompt("Escreva sua comida favorita top 02?")
+const comidasFav03 = prompt("Escreva sua comida favorita top 03?")
+console.log("Estas são as comidas favoritas de "+ nome + ": \n" + comidasFav01 + "\n" + comidasFav02 + "\n" + comidasFav03 + "\n") 
