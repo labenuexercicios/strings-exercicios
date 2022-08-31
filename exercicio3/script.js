@@ -6,4 +6,5 @@ const novaFrase = frase.replace("verde","rosa").replace("azul","laranja").replac
 const verificarVerde = novaFrase.includes("verde")
 const verificarLaranja = novaFrase.includes("laranja")
  
-console.log (`${novaFrase} \nA string inclui verde: ${verificarVerde}\nA string inclui Laranja: ${verificarLaranja}`)
+console.log (`${novaFrase} \nA string inclui verde: ${verificarVerde}\nA string inclui Laranja: ${verificarLaranja}`) 
+//teste
