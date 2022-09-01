@@ -1,1 +1,1 @@
-//Crie a const para a frase aqui
+const porEnquanto = prompt("olá mundo")
