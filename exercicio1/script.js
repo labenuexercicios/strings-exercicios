@@ -7,3 +7,4 @@ const comida3 = prompt('Qual é a sua terceira comida favorita?');
 console.log(
   `Estas são as comidas favoritas do ${nomeUsuário}:\n${comida1},\n${comida2},\n${comida3}`
 );
+// :) //

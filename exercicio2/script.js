@@ -12,3 +12,5 @@ console.log(newString.length); //52//
 //c//
 let newString2 = newString.replace('________', 'supersticioso');
 console.log(newString2);
+
+// :) //
