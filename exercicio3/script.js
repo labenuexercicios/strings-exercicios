@@ -2,24 +2,32 @@ const frase = `Jorge tem uma casa verde e com portão azul, com os dizeres: BOAS
 
 console.log (frase);
 
-let novaFrase = frase.replace ("verde", "rosa");
-novaFrase = novaFrase.replace ("azul","laranja");
+let novaFrase = frase.replace ("verde", "rosa").replace ("azul", "laranja"); //substitui apenas a primeira ocorrência. "replaceAll" substitui todas as ocorrências.
+//novaFrase = novaFrase.replace ("azul","laranja");
 
 console.log (novaFrase);
 
 const palavras = novaFrase.split(" "); //tranformando a string em array (separados pelos espaços)
 
+console.log (palavras); //Exibindo os atributos do array
+
+console.log (palavras.length); //descobrindo o tamanho do array 
+
 console.log (palavras[10]); //descobrindo qual palavra tem na posição 10
 
 console.log (palavras.indexOf("mas")); // descobrindo qual a posição da atribuição "mas"
 
-console.log (palavras.length); //descobrindo o tamanho do array 
+
 
 for (let posicao = palavras.indexOf("mas"); posicao< palavras.length; posicao++){
     palavras[posicao] = palavras[posicao].toUpperCase();
-   
+    
 }
-console.log (palavras.join(' '));
+
+console.log (palavras.join(' ')); // transformando o array em string separando por espaços
+
+
+
 
 /* a) Crie uma `const` no seu código para guardar a frase (com aspas e tudo);
 
