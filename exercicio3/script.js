@@ -1,6 +1,5 @@
 //Crie a const para a frase aqui
 
-//Crie a const para a frase aqui
 
 
 function substituirCores(frase) {
@@ -21,3 +20,4 @@ console.log(fraseTrocada);
 console.log(fraseComTrechoMaiusculo);
 
 //lol
+=======
