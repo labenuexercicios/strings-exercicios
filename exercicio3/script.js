@@ -19,3 +19,5 @@ const fraseComTrechoMaiusculo = fraseOriginal.replace(trecho, trechoMaiusculo)
 const fraseTrocada = substituirCores(fraseOriginal);
 console.log(fraseTrocada);
 console.log(fraseComTrechoMaiusculo);
+
+//lol
